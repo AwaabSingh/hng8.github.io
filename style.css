@@ -18,7 +18,7 @@ header {
   width: 100%;
   z-index: 10;
   padding: 15px 15px;
-  background-color: black;
+  background-color:#ffffff;
 }
 
 header .container {
@@ -38,7 +38,7 @@ header .logo a span {
 
 header .nav {
   position: fixed;
-  background-color: #c11325;
+  background-color: black;
   width: 280px;
   top: 0;
   right: 0;
