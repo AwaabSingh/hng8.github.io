@@ -353,13 +353,16 @@
                     <div class="container">
                       <div class="content">
                         <div class="box form wow slideInLeft">
-                          <form>
-                            <input type="text" placeholder="Enter Your Name" />
-                            <input type="email" placeholder="Enter Your Email" />
-                            <input type="text" placeholder="Enter Your Phone" />
-                            <textarea placeholder="Enter Message"></textarea>
-                            <button type="submit">Send Message</button>
-                          </form>
+                            <form action="POST" data-netlify="true">
+                                <input type="text"  name="name" placeholder="Enter Your Name" />
+                               <input type="email" name="email" placeholder="Enter Your Email" />
+                               <input type="text"  name="phone" placeholder="Enter Your Phone" />
+                               <textarea placeholder="Enter Message"></textarea>
+                               <div class="field">
+                                   <div data-netlify-recaptcha="true"> </div>
+                               </div>
+                               <button type="submit">Send Message</button>
+                             </form>
                         </div>
                         <div class="box text wow slideInRight">
                           <h2>Get Connected With Us</h2>
